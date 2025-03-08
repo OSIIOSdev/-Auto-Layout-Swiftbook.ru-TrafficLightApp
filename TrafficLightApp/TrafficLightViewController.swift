@@ -23,8 +23,8 @@ final class TrafficLightViewController: UIViewController {
     
     private var switchButton = UIButton()
     
-    private var lightIsOn = 1.0
-    private var lightIsOff = 0.2
+    private let lightIsOn: CGFloat = 1.0
+    private let lightIsOff: CGFloat = 0.2
     
     private var currentLight: Lights = .redLight
     
